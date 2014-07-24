@@ -19,6 +19,10 @@ Once it finishes building, you can run the container with:
 
 `docker run -d -v /tmp/results:/tmp memegen URL-TO-YOUR-IMAGE "TOP TEXT" "BOTTOM TEXT"`
 
+For example:
+
+`docker run -d -v /tmp/results:/tmp memegen https://lh3.googleusercontent.com/-EB2yW-uyStY/U9EIHQ6AU3I/AAAAAAAAf9c/4qie7_3hNoA/w662-h779-no/20140625_171725.jpg "Why don’t you ever see hippopotamus hiding in trees?" "Because they’re really good at it."`
+
 Your results should show up in the "/tmp/results" folder.
 
 ##Acknowledgements##
