@@ -9,8 +9,6 @@ Updated: 2014-07-24
 
 ##Building and Running##
 
-##Building and Running##
-
 This is a [Docker](http://docker.io) container image.  You need to have Docker installed to build and run the container.
 
 To build the image, change directories into the root of this repository, and run:
