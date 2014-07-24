@@ -17,7 +17,7 @@ To build the image, change directories into the root of this repository, and run
 
 Once it finishes building, you can run the container with:
 
-`docker run -i -t --rm -v ./results:/tmp memegen \<URL-TO-YOUR-IMAGE\> "TOP TEXT" "BOTTOM TEXT"`
+`docker run -d -v ./results:/tmp memegen URL-TO-YOUR-IMAGE "TOP TEXT" "BOTTOM TEXT"`
 
 Your results should show up in the "results" folder.
 
