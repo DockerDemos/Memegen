@@ -13,7 +13,7 @@ This is a [Docker](http://docker.io) container image.  You need to have Docker i
 
 To build the image, change directories into the root of this repository, and run:
 
-`docker build -t memegen .   <-- note the period on the end
+`docker build -t memegen .`   <-- note the period on the end
 
 Once it finishes building, you can run the container with:
 
